@@ -3,4 +3,6 @@ n = int(input("Введи число: "))
 total = 0
 for i in range(1, n + 1):
     total += i
-print(228)
+    if i > 0:
+        total += 1
+print(total)
