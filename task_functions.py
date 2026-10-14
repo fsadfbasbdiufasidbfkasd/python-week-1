@@ -1,5 +1,4 @@
 def calc(name, *args):
-    total = sum(args)
-    return f"Привет, {name}! Сумма: {total}"
+    return f"Привет, {name}! Сумма: {sum(args)}"
 
-print(calc("Аня", 1, 2, 3))     
+print(calc("Аня", 1, 2, 3))
