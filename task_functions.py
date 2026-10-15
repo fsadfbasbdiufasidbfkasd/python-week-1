@@ -1,7 +1,8 @@
-def double_all(nubers):
-    my_list = []
-    for num in nubers:
+def sum_positive(numbers):
+    num = 0
+    for i in numbers:
+        if i > 0:
+            num += i
         
-        my_list.append(num * 2)
-    return my_list
-print(double_all([1, 2, 3]))
+    return num
+print(sum_positive([1, -2, 3, -4, 5]))
