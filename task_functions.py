@@ -1,4 +1,7 @@
-def calc(name, *args):
-    return f"Привет, {name}! Сумма: {sum(args)}"
-
-print(calc("Аня", 1, 2, 3))
+def double_all(nubers):
+    my_list = []
+    for num in nubers:
+        
+        my_list.append(num * 2)
+    return my_list
+print(double_all([1, 2, 3]))
